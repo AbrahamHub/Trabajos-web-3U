@@ -3,19 +3,17 @@
     padding: 0px;
 }
 body{
-    background-image: url(img/fondo.gif);
+    background-image: url(/Users/mf/Desktop/Trabajos-web/img/fondo.gif);
 }
 #contenido{
     width: 80%;
-    height: 100%;
     background-color: white;
-    position: fixed;
+    position: absolute;
     left: 10%;
     right: 10%;
 }
 #cabezera{
     width: 100%;
-    height: 20%;
     background-color: black;
 }
 #megusta button{
@@ -30,11 +28,11 @@ body{
     color: orangered;
     font-size: 60px;
 }
-#mil{
-    width: 16px;
-    height: 16px;
-    background-color: white;
-    text-align: center;
+#mil img{
+float: right;
+position: absolute;
+right: 40px;
+top :40px;
 }
 #barra{
     width: 100%;
@@ -42,7 +40,7 @@ body{
     background-color: darkgray;
 }
 #barra li{
-    width: 13%;
+    width: 12%;
     display: inline-block;
     list-style: none;
     color:white;
@@ -56,4 +54,217 @@ body{
 #barra li :hover{
     color:white;
     background-color: grey;
+}
+#imagenes{
+    margin-top: 30px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+#imagenes img{
+    width: 150px;
+    height: 200px;
+    border: 2px orange solid;
+    text-align: center;
+    padding: 5px;
+}
+#imagenes li{
+    width: 16%;
+    display: inline-block;
+    list-style: none;
+    color:white;
+    text-align: center;
+    padding: 70px,0px;
+}
+#imagenes a :hover{
+    border: 2px gray solid;
+}
+#imagenes2{
+    margin-top: 30px;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+#izz{
+    float: left;
+    width: 44%;
+    margin-left: 15px;
+}
+#izz p{
+    width: 91%;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    font-size: 25px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+#der{
+    float: right;
+    width: 40%;
+    margin-right: 15px;
+}
+#der p{
+    width: 100%;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    font-size: 25px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+#izz img{
+    width: 75px;
+    height: 105px;
+    border: 1px orange solid;
+    text-align: center;
+}
+#der img{
+    width: 75px;
+    height: 105px;
+    border: 1px orange solid;
+    text-align: center;
+}
+#izz a :hover{
+    border: 1px gray solid;
+}
+#der a :hover{
+    border: 1px gray solid;
+}
+#ariz{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    width: 42%;
+    height: 200px;
+    background-color: rgba(145, 152, 160, 0.534);
+}
+#ariz img{
+    width: 100px;
+    height: 163px;
+}
+#ariz p{
+    text-align: justify;
+    float: right;
+    width: 180px;
+    margin-right: 80px;
+    font-size: smaller;
+}
+#ariz a{
+    display:block;
+    height: 200px;
+}
+#ariz a:hover{
+    background-color: lightskyblue;
+    cursor:default;
+}
+#arde{
+    margin-top: 20px;
+    float: right;
+    margin-right: 20px;
+    width: 42%;
+    height: 200px;
+    background-color: rgba(145, 152, 160, 0.534);
+}
+#arde img{
+    width: 100px;
+    height: 163px;
+}
+#arde p{
+    text-align: justify;
+    float: right;
+    width: 180px;
+    margin-right: 80px;
+    font-size: smaller;
+}
+#arde a{
+    display:block;
+    height: 200px;
+}
+#arde a:hover{
+    background-color: lightskyblue;
+    cursor:default;
+}
+#ariz2{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    width: 42%;
+    height: 200px;
+    background-color: rgba(145, 152, 160, 0.534);
+}
+#ariz2 img{
+    width: 100px;
+    height: 163px;
+}
+#ariz2 p{
+    text-align: justify;
+    float: right;
+    width: 180px;
+    margin-right: 80px;
+    font-size: smaller;
+}
+#ariz2 a{
+    display:block;
+    height: 200px;
+}
+#ariz2 a:hover{
+    background-color: rgb(250, 186, 236);
+    cursor:default;
+}
+#arde2{
+    margin-top: 20px;
+    float: right;
+    margin-right: 20px;
+    width: 42%;
+    height: 200px;
+    background-color: rgba(145, 152, 160, 0.534);
+}
+#arde2 img{
+    width: 100px;
+    height: 163px;
+}
+#arde2 p{
+    text-align: justify;
+    float: right;
+    width: 180px;
+    margin-right: 80px;
+    font-size: smaller;
+}
+#arde2 a{
+    display:block;
+    height: 200px;
+}
+#arde2 a:hover{
+    background-color: rgb(250, 186, 236);
+    cursor:default;
+}
+#cont2{
+    width: 100%;
+    position: absolute;
+}
+#It{
+width: 100%;
+margin-top: 500px;
+}
+#It h2{
+    text-align: center;
+    font-size: 40px;
+}
+#It iframe{
+    width:560px;
+    height:315px;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#piepagina{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#piepagina img{
+    width: 50px;
+    height: 50px;
 }
